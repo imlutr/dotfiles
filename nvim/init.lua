@@ -26,7 +26,7 @@ vim.api.nvim_set_keymap('n', '<leader>Y', 'gg"+yG', { noremap = true, silent = t
 vim.api.nvim_set_keymap('x', 'J', ':m \'>+1<CR>gv=gv', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('x', 'K', ':m \'<-2<CR>gv=gv', { noremap = true, silent = true })
 
--- lazy.nvim setup
+-- Setup lazy.nvim 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -40,7 +40,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- lazy.nvim plugins
+-- Plugins
 require("lazy").setup({
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     "williamboman/mason.nvim",
