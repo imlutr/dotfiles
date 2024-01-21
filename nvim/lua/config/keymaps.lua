@@ -1,3 +1,10 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+vim.api.nvim_set_keymap("n", "<leader>pv", ":Vex<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-p>", ":GFiles<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>pf", ":Files<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-j>", ":cprev<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-k>", ":cnext<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("x", "<leader>p", '"_dP', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>y", '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>Y", 'gg"+yG', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("x", "J", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("x", "K", ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
