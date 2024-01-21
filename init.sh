@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s $(pwd)/vim ~/.config/nvim
+ln -s $(pwd)/nvim ~/.config/nvim
