@@ -12,3 +12,6 @@ vim.o.colorcolumn = "120"
 
 -- Don't yank to system clipboard
 vim.opt.clipboard = ""
+
+-- Relatinve line numbers in NetRW
+vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro"
