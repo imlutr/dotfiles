@@ -14,7 +14,7 @@
   "deadcolumn.nvim": { "branch": "master", "commit": "b84cdf2fc94c59651ececd5e4d2a0488b38a7a75" },
   "dressing.nvim": { "branch": "master", "commit": "6f212262061a2120e42da0d1e87326e8a41c0478" },
   "everforest-nvim": { "branch": "main", "commit": "a2de6a58e8fa389fa239c51f416b72fd01a02175" },
-  "friendly-snippets": { "branch": "main", "commit": "aced40b66b7bae9bc2c37fd7b11841d54727a7b0" },
+  "friendly-snippets": { "branch": "main", "commit": "b8fae73a479ae0a1c54f5c98fa687ae8a0addc53" },
   "gitsigns.nvim": { "branch": "main", "commit": "2c2463dbd82eddd7dbab881c3a62cfbfbe3c67ae" },
   "harpoon": { "branch": "harpoon2", "commit": "a38be6e0dd4c6db66997deab71fc4453ace97f9c" },
   "indent-blankline.nvim": { "branch": "master", "commit": "12e92044d313c54c438bd786d11684c88f6f78cd" },
