@@ -12,7 +12,9 @@ export PATH="/opt/homebrew/opt/llvm@12/bin:$PATH"
 export PATH="./bin:$PATH"
 
 # Secrets
-source ~/.zsh_secrets
+if [ -e ~/.zsh_secrets ]; then
+    source ~/.zsh_secrets
+fi
 
 # Aliases
 alias vim="nvim"
