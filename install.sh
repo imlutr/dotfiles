@@ -4,6 +4,7 @@ DOTFILES_DIRECTORY=$HOME/dotfiles
 DOTFILES=(
 	"kitty"
 	"nvim"
+	".hushlogin"
 	".zshrc"
 	".zsh_secrets"
 )
