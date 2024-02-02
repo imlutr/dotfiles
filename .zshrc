@@ -14,5 +14,8 @@ if [ -e ~/.zsh_secrets ]; then
     source ~/.zsh_secrets
 fi
 
+# Make `./bin [command]` be equivalent to `[command]` (for work)
+export PATH="./bin:$PATH"
+
 # Aliases
 alias vim="nvim"
