@@ -5,6 +5,7 @@ DOTFILES=(
 	"kitty"
 	"nvim"
 	".gitconfig"
+	".gitconfig.local"
 	".hushlogin"
 	".zshrc"
 	".zsh_secrets"
