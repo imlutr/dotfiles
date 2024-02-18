@@ -1,0 +1,7 @@
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[user]
+	name = lutr
+	email = hi@lutr.dev
