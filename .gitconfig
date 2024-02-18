@@ -42,6 +42,10 @@
     # A better conflict algorithm, which also shows the current version, among others
     conflictstyle = zdiff3
 
+[credential]
+    # Use the MacOS keychain for managing credentials
+    helper = osxkeychain
+
 # Detect data corruption eagerly
 [transfer]
     fsckobjects = true
