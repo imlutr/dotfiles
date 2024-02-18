@@ -38,7 +38,7 @@
     # Better diff algorithm, that handles moved code better
     algorithm = histogram
     # Use a different color to highlight moved code in diffs
-	colorMoved = default
+	colorMoved = zebra
 
 [merge]
     # A better conflict algorithm, which also shows the current version, among others
