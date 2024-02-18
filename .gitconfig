@@ -1,19 +1,31 @@
 [include]
     path = ~/.gitconfig.local
 
-[diff]
-    algorithm = histogram
+# 'main' is the default branch
 [init]
-	defaultBranch = main
-[merge]
-    conflictstyle = zdiff3
-[pull]
-	rebase = true
+    defaultBranch = main
+
+# The first push of a branch automatically sets the remote
 [push]
     autoSetupRemote = true
-[url "git@github.com:"]
-	insteadOf = "https://github.com/"
 
+# Clone the SSH version of a repository even if the HTTPS version is specified
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"
+
+# Always rebase when pulling
+[pull]
+    rebase = true
+
+# Better diff algorithm, that handles moved code better
+[diff]
+    algorithm = histogram
+
+# A better conflict algorithm, which also shows the current version, among others
+[merge]
+    conflictstyle = zdiff3
+
+# Detect data corruption eagerly
 [transfer]
     fsckobjects = true
 [fetch]
