@@ -22,6 +22,11 @@
     # Always rebase when pulling
     rebase = true
 
+[fetch]
+    # Automatically delete remote tracking branches that have been removed from the remote
+    prune = true
+    pruneTags = true
+
 [commit]
     # Allow writing '#' in commit messages (like '#include'), ignoring only what's under '# ------- >8 -------'
     cleanup = scissors
