@@ -19,8 +19,12 @@
     rebase = true
 
 [branch]
-    # 'git branch' shows the branches by last commit, instead of by name 
+    # Show branches in 'git branch' sorted by the last commit (instead of by name)
     sort = -committerdate
+
+[tag]
+    # Show tags in 'git tag' sorted by the last commit (instead of by name)
+    sort = taggerdate
 
 [diff]
     # Better diff algorithm, that handles moved code better
