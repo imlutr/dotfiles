@@ -1,6 +1,7 @@
 # MacOS
 .DS_Store
 
-# Private dotfiles
+# Local dotfiles
+.gitconfig.local
 .zsh_secrets
-.gitignore.local
+
