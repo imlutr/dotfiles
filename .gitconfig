@@ -2,6 +2,10 @@
     # Import the local configuration
     path = ~/.gitconfig.local
 
+[core]
+    # Set the default editor to Neovim
+    editor = nvim
+
 [init]
     # 'main' is the default branch
     defaultBranch = main
