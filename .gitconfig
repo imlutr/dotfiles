@@ -1,33 +1,33 @@
-# Import the local configuration
 [include]
+    # Import the local configuration
     path = ~/.gitconfig.local
 
-# 'main' is the default branch
 [init]
+    # 'main' is the default branch
     defaultBranch = main
 
-# The first push of a branch automatically sets the remote
 [push]
+    # The first push of a branch automatically sets the remote
     autoSetupRemote = true
 
-# Clone the SSH version of a repository even if the HTTPS version is specified
 [url "git@github.com:"]
+    # Clone the SSH version of a repository even if the HTTPS version is specified
     insteadOf = "https://github.com/"
 
-# Always rebase when pulling
 [pull]
+    # Always rebase when pulling
     rebase = true
 
-# 'git branch' shows the branches by last commit, instead of by name 
 [branch]
+    # 'git branch' shows the branches by last commit, instead of by name 
     sort = -committerdate
 
-# Better diff algorithm, that handles moved code better
 [diff]
+    # Better diff algorithm, that handles moved code better
     algorithm = histogram
 
-# A better conflict algorithm, which also shows the current version, among others
 [merge]
+    # A better conflict algorithm, which also shows the current version, among others
     conflictstyle = zdiff3
 
 # Detect data corruption eagerly
