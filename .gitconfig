@@ -1,6 +1,8 @@
+[include]
+    path = ~/.gitconfig.local
 [push]
 	autoSetupRemote = true
 [init]
 	defaultBranch = main
-[include]
-    path = ~/.gitconfig.local
+[pull]
+	rebase = true
