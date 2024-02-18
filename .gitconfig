@@ -13,6 +13,8 @@
 [push]
     # The first push of a branch automatically sets the remote
     autoSetupRemote = true
+    # Also push tags with 'git push' (instead of having to use 'git push --tags')
+	followTags = true
 
 [url "git@github.com:"]
     # Clone the SSH version of a repository even if the HTTPS version is specified
