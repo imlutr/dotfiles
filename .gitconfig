@@ -39,6 +39,8 @@
     algorithm = histogram
     # Use a different color to highlight moved code in diffs
 	colorMoved = zebra
+    # Use the different color for moved code, even if it has changed indentation
+	colorMovedWS = allow-indentation-change
 
 [merge]
     # A better conflict algorithm, which also shows the current version, among others
