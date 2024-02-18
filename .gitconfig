@@ -1,5 +1,6 @@
 [include]
     path = ~/.gitconfig.local
+
 [diff]
     algorithm = histogram
 [init]
@@ -12,3 +13,10 @@
     autoSetupRemote = true
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
+
+[transfer]
+    fsckobjects = true
+[fetch]
+    fsckobjects = true
+[receive]
+    fsckobjects = true
