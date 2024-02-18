@@ -24,6 +24,10 @@
     # Always rebase when pulling
     rebase = true
 
+[rebase]
+    # Don't allow deleting commits during a rebase
+    missingCommitsCheck = error
+
 [fetch]
     # Automatically delete remote tracking branches that have been removed from the remote
     prune = true
