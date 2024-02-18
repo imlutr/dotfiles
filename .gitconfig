@@ -1,10 +1,12 @@
 [include]
     path = ~/.gitconfig.local
-[push]
-	autoSetupRemote = true
+[diff]
+    algorithm = histogram
 [init]
 	defaultBranch = main
+[merge]
+    conflictstyle = zdiff3
 [pull]
 	rebase = true
-[merge]
-	conflictstyle = zdiff3
+[push]
+    autoSetupRemote = true
