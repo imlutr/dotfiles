@@ -18,6 +18,10 @@
     # Always rebase when pulling
     rebase = true
 
+[commit]
+    # Allow writing '#' in commit messages (like '#include'), ignoring only what's under '# ------- >8 -------'
+    cleanup = scissors
+
 [branch]
     # Show branches in 'git branch' sorted by the last commit (instead of by name)
     sort = -committerdate
