@@ -18,6 +18,10 @@
 [pull]
     rebase = true
 
+# 'git branch' shows the branches by last commit, instead of by name 
+[branch]
+    sort = -committerdate
+
 # Better diff algorithm, that handles moved code better
 [diff]
     algorithm = histogram
