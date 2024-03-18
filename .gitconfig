@@ -57,6 +57,10 @@
     # A better conflict algorithm, which also shows the current version, among others
     conflictstyle = zdiff3
 
+[rerere]
+    # Re-use recorded resolution of conflicted merges
+    enabled = true
+
 [credential]
     # Use the MacOS keychain for managing credentials
     helper = osxkeychain
