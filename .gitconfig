@@ -6,6 +6,9 @@
     # Set the default editor to Neovim
     editor = nvim
 
+    # Global .gitingore
+    excludesfile = ~/.gitignore.global
+
 [init]
     # 'main' is the default branch
     defaultBranch = main
