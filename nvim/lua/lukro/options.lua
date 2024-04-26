@@ -2,8 +2,8 @@
 vim.o.background = "light"
 
 -- Line numbers
-vim.opt.number = true -- Show line numbers
-vim.opt.relativenumber = true -- Make the line numbers relative
+vim.o.number = true -- Show line numbers
+vim.o.relativenumber = true -- Make the line numbers relative
 
 -- Tabs
 vim.o.tabstop = 4 -- A <Tab> character looks like 4 spaces
