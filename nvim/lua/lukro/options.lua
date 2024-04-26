@@ -12,5 +12,6 @@ vim.o.softtabstop = 4 -- Number of spaces inserted instead of a <Tab> character
 vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 
 -- NetRW
--- Show relative numbers. Show no cursor line (= horizontal line under the selected line)
-vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro nocursorline"
+vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro nocursorline" -- Relative line numbers, no cursor line
+vim.g.netrw_banner = 0 -- No 7-lines banner at the top
+
